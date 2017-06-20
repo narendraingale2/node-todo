@@ -9,4 +9,3 @@ exit_status=$?
 ps -ef|grep -i server.js|grep -v grep|awk '{ print $2 }'|xargs kill -9
 rm file.txt
 exit $exit_status
-# This is test script
